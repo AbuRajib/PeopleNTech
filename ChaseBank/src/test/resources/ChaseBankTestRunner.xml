@@ -12,15 +12,15 @@
 
     <test name="ChaseBank Pages">
         <classes>
-            <class name="homepage.Header" />
+            <!--<class name="homepage.Header" />-->
             <!--<class name="homepage.SignIn"/>-->
             <!--<class name="homepage.Menu"/>-->
             <!--<class name="homepage.Footer"/>-->
             <!--<class name="homepage.Search" />-->
 
             <!--<class name="AboutJPMorgan.Heading"/>-->
-            <!--<class name="AboutJPMorgan.MouseOverMenu"/>-->
-            <!--<class name="AboutJPMorgan.MouseOverImage"/>-->
+            <class name="AboutJPMorgan.MouseOverMenu"/>
+            <class name="AboutJPMorgan.MouseOverImage"/>
             <!--<class name="AboutJPMorgan.SnapShot"/>-->
         </classes>
     </test>
