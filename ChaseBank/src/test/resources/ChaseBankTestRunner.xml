@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="ChaseBank Test on Browser">
+    <parameter name="UseSauceLab" value="false"/>
+    <parameter name="UserName" value="rajib0078"/>
+    <parameter name="Key" value="e7d64913-3a8f-4ef4-8f2c-d4a694179e16"/>
+    <parameter name="BrowserName" value="firefox"/>
+    <parameter name="BrowserVersion" value="37"/>
+    <parameter name="os" value="windows"/>
+    <parameter name="url" value="https://www.chase.com"/>
+
+    <test name="ChaseBank Pages">
+        <classes>
+            <class name="homepage.Header" />
+            <!--<class name="homepage.SignIn"/>-->
+            <!--<class name="homepage.Menu"/>-->
+            <!--<class name="homepage.Footer"/>-->
+            <!--<class name="homepage.Search" />-->
+
+            <!--<class name="AboutJPMorgan.Heading"/>-->
+            <!--<class name="AboutJPMorgan.MouseOverMenu"/>-->
+            <!--<class name="AboutJPMorgan.MouseOverImage"/>-->
+            <!--<class name="AboutJPMorgan.SnapShot"/>-->
+        </classes>
+    </test>
+
+</suite>

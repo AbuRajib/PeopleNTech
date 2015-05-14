@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [ChaseBank Test on Browser]">
+  <parameter name="BrowserName" value="chrome"/>
+  <parameter name="UserName" value="rajib0078"/>
+  <parameter name="os" value="windows"/>
+  <parameter name="BrowserVersion" value="42"/>
+  <parameter name="Key" value="e7d64913-3a8f-4ef4-8f2c-d4a694179e16"/>
+  <parameter name="url" value="https://www.chase.com"/>
+  <parameter name="UseSauceLab" value="false"/>
+  <test name="ChaseBank Pages(failed)">
+    <classes>
+      <class name="homepage.Header">
+        <methods>
+          <include name="setUp"/>
+          <include name="headerPage"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- homepage.Header -->
+    </classes>
+  </test> <!-- ChaseBank Pages(failed) -->
+</suite> <!-- Failed suite [ChaseBank Test on Browser] -->
